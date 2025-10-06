@@ -28,6 +28,7 @@ public class Main {
                     7) Calculate news price.
                     0) Close the program.""");
             option = sc.nextInt();
+            sc.nextLine();
 
             message = switch (option) {
                 case 1 -> CreateEditor();
@@ -50,7 +51,6 @@ public class Main {
 
         System.out.println("What's the editor's name?");
         name = sc.nextLine();
-        sc.next();
 
         System.out.println("What's the editor's ID?");
         id = sc.next();
@@ -66,7 +66,6 @@ public class Main {
 
         System.out.println("What's the editor's name?");
         name = sc.nextLine();
-        sc.next();
 
         idFound = FindEditor(name);
 
