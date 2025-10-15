@@ -1,6 +1,6 @@
 # 🧑‍💻 Task S1.01. Inheritance and Polymorphism
 **Author:** David Rey  
-**Corrected by:** Lois González  
+**Corrected by:** Lois González ([pantalois](https://github.com/Viid21/S1_01_Inheritance_and_Polymorphism/issues/1))  
 ## 📄 Description
 This project contains several object-oriented programming exercises in Java, organized by difficulty levels.
 ### 🔹 Level 1
