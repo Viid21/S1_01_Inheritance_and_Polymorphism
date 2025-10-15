@@ -1,6 +1,6 @@
 # 🧑‍💻 Task S1.01. Inheritance and Polymorphism
-Author: David  
-Corrected by:
+**Author:** David Rey  
+**Corrected by:** Lois González  
 ## 📄 Description
 This project contains several object-oriented programming exercises in Java, organized by difficulty levels.
 ### 🔹 Level 1
