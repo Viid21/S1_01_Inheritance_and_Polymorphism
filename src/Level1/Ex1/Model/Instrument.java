@@ -9,22 +9,8 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    public String GetName() {
-        return this.name;
-    }
-    public float GetPrice() {
-        return this.price;
-    }
-
-    public void Setname(String name) {
-        this.name = name;
-    }
-    public void SetPrice(float price) {
-        this.price = price;
-    }
-
-    public static void InstrumentCreated(){
+    public static void instrumentCreated(){
         System.out.println("Classe instrument creada");
     }
-    public abstract void Play();
+    public abstract void play();
 }

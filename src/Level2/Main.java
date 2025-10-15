@@ -10,9 +10,9 @@ public class Main {
         SmartPhone phone = new SmartPhone("Xiaomi", "Poco f3");
 
         System.out.println("What number do you want to call?");
-        phone.Call(sc.nextInt());
+        phone.call(sc.next());
 
-        phone.getCamera().TakePhoto();
-        phone.getClock().Alarm();
+        phone.takePhoto();
+        phone.alarm();
     }
 }

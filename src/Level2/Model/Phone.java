@@ -9,14 +9,6 @@ public class Phone {
         this.model = model;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
     public String getModel() {
         return model;
     }
@@ -25,7 +17,7 @@ public class Phone {
         this.model = model;
     }
 
-    public String Call(int phoneNum){
+    public String call(String phoneNum){
         return "You are calling the number " + phoneNum;
     }
 

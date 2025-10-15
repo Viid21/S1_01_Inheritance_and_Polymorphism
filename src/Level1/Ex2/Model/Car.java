@@ -21,11 +21,11 @@ public class Car {
         Car.model = model;
     }
 
-    public static void Decrease() {
+    public static void decrease() {
         System.out.println("Car Decrease");
     }
 
-    public  void Accelerate(){
+    public  void accelerate(){
         System.out.println("Car Accelerate");
     }
 }

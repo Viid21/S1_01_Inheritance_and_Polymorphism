@@ -5,11 +5,10 @@ public class WindInstrument extends Instrument {
 
     public WindInstrument(String name, float price) {
         super(name, price);
-        this.message = "Està sonant un instrument de vent";
     }
 
     @Override
-    public void Play() {
-        System.out.println(this.message);
+    public void play() {
+        System.out.println("Està sonant un instrument de vent");
     };
 }

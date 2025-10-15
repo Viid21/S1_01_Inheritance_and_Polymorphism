@@ -11,6 +11,8 @@ out/
 .settings
 .springBeans
 .sts4-cache
+.idea
+S1_01_Inheritance_and_Polymorphism.iml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/

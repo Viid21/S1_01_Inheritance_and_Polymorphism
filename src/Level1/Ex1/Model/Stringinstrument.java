@@ -5,11 +5,10 @@ public class Stringinstrument extends Instrument{
 
     public Stringinstrument(String name, float price) {
         super(name, price);
-        this.message = "Està sonant un instrument de corda";
     }
 
     @Override
-    public void Play() {
-        System.out.println(this.message);
+    public void play() {
+        System.out.println("Està sonant un instrument de corda");
     };
 }
